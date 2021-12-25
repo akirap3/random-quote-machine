@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  .App-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    margin: auto 10%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+
+    #author {
+      align-self: flex-end;
+    }
+
+    #tweet-quote {
+      margin-right: 20vw;
+    }
+  }
+}
